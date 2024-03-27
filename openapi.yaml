@@ -1,0 +1,58 @@
+swagger: "2.0"
+info:
+  title: MathFunctionsAPI
+  version: 1.0.0
+host: COE453-3-201959690.apigateway.coe453-hw2-414917.cloud.goog
+basePath: /
+schemes:
+  - https
+  - http
+paths:
+  /add:
+    get:
+      operationId: addFunction
+      summary: Add two numbers
+      description: Add two numbers together
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-coe453-hw2-414917.cloudfunctions.net/add
+  /sub:
+    get:
+      operationId: subFunction
+      summary: Subtract two numbers
+      description: Subtract second number from the first number
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-coe453-hw2-414917.cloudfunctions.net/sub
+  /mul:
+    get:
+      operationId: mulFunction
+      summary: Multiply two numbers
+      description: Multiply two numbers together
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-coe453-hw2-414917.cloudfunctions.net/mul
+  /div:
+    get:
+      operationId: divFunction
+      summary: Divide two numbers
+      description: Divide first number by the second number
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-coe453-hw2-414917.cloudfunctions.net/div
