@@ -1,0 +1,19 @@
+{
+  "name": "coe-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaled-Alshahrani/COE453_3_201959690_Task2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khaled-Alshahrani/COE453_3_201959690_Task2/issues"
+  },
+  "homepage": "https://github.com/Khaled-Alshahrani/COE453_3_201959690_Task2#readme"
+}
